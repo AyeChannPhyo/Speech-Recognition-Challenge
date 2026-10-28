@@ -787,10 +787,11 @@ button.primary:hover {
   margin-top: 30px;
 }
 .leaderboard-language-title {
-  margin: 0 0 10px;
+  margin: 0 0 14px;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--ink);
+  letter-spacing: -0.4px;
 }
 #leaderboard .language-table {
   width: 100% !important;
@@ -1518,13 +1519,6 @@ button.primary:hover {
 
       const modelTd = document.createElement('td');
       modelTd.textContent = r.model;
-
-      if (index === 0) {
-        const badge = document.createElement('span');
-        badge.className = 'best-badge';
-        badge.textContent = 'BEST';
-        modelTd.appendChild(badge);
-      }
 
       const cerTd = document.createElement('td');
       cerTd.textContent = Number.isFinite(r.cer) ? r.cer.toFixed(3) : '—';
