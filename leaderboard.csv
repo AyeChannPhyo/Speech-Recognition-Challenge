@@ -1,11 +1,11 @@
 model,language,cer,bleu,chrf
 Gemma 4 IT Zero-shot,English,0.322,1.308,18.166
 Gemma 4 IT Zero-shot,Korean,0.324,0.164,4.593
-Fine-tuned Qwen3 + CTC Greedy,English,0.164,7.250,25.152
-Fine-tuned Qwen3 + CTC Greedy,Korean,0.164,1.361,10.442
-Character CTC + LoRA,English,0.164,8.775,26.610
-Character CTC + LoRA,Korean,0.164,2.934,11.715
-Character CTC Robustness + LoRA,English,0.164,9.254,28.989
-Character CTC Robustness + LoRA,Korean,0.164,3.118,12.084
-Hybrid CTC-AED + LoRA,English,0.127,12.567,32.522
-Hybrid CTC-AED + LoRA,Korean,0.127,4.074,14.403
+Qwen-token CTC + Clean LoRA,English,0.164,7.250,25.152
+Qwen-token CTC + Clean LoRA,Korean,0.164,1.361,10.442
+Character CTC + Clean LoRA,English,0.164,8.775,26.610
+Character CTC + Clean LoRA,Korean,0.164,2.934,11.715
+Character CTC + Robustness LoRA,English,0.164,9.254,28.989
+Character CTC + Robustness LoRA,Korean,0.164,3.118,12.084
+Conformer CTC + Robustness LoRA,English,0.127,12.567,32.522
+Conformer CTC + Robustness LoRA,Korean,0.127,4.074,14.403
