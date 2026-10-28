@@ -1,0 +1,3 @@
+model,language,cer,bleu,chrf
+Gemma 4 IT Zero-shot,English,0.322,1.308,18.166
+Gemma 4 IT Zero-shot,Korean,0.324,0.164,4.593
